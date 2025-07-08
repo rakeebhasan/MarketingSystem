@@ -9,7 +9,7 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 16px;
 	font-weight: 400;
-	background: #fff;
+	background: #d1ffe6;
 	color: #333333;
 }
 
@@ -232,4 +232,164 @@ HEADER CSS HERE
 	display: flex;
 	flex-direction: column;
 	row-gap: 15px;
+}
+
+/* Best Largest World Class Area Css */
+.largest-wrpper {
+	padding: 80px 0;
+}
+
+.largest-banner-desc h2 {
+	font-size: 70px;
+	font-weight: 600;
+	text-align: center;
+}
+
+.largest-banner-desc h2 span {
+	color: #2f5496;
+}
+
+.largest-banner-desc h3 {
+	font-size: 60px;
+	font-weight: 600;
+	text-align: center;
+	color: #ee0000;
+}
+
+.largest-banner-desc h4 {
+	color: #2f5496;
+	font-size: 28px;
+	font-weight: 600;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.largest-banner-desc h4 span {
+	color: #ee0000;
+}
+
+/* Best Largest World Class Area Css */
+.free-marketing-wrpper h2 {
+	font-size: 35px;
+	font-weight: 600;
+}
+
+.free-marketing-wrpper h1 {
+	display: inline-block;
+	color: #c70000;
+	background-color: #fffcff;
+	font-size: 60px;
+	font-weight: 600;
+	margin: 10px 0;
+}
+
+.free-marketing-wrpper > p {
+	max-width: 400px;
+	margin: 10px auto;
+	font-size: 18px;
+	font-weight: 600;
+	text-align: left;
+}
+
+.free-marketing-wrpper > p span {
+	color: #c70000;
+}
+
+.free-marketing-wrpper ul {
+	display: flex;
+	flex-direction: column;
+	row-gap: 10px;
+}
+
+.free-marketing-wrpper ul li span,
+.free-marketing-wrpper h3 span {
+	color: #ee0000;
+}
+
+.free-marketing-wrpper ul li {
+	font-size: 18px;
+	font-weight: 700;
+	text-align: center;
+}
+
+.free-marketing-wrpper h3 {
+	margin-top: 30px;
+	font-weight: 700;
+}
+
+.free-marketing-wrpper h3 p {
+	background-color: #00ffff;
+	display: inline-block;
+	padding: 15px 10px;
+}
+
+.start-now p {
+	background-color: #00ffff;
+	padding-left: 20px;
+	display: inline-block;
+	font-size: 25px;
+	margin-top: 15px;
+	font-weight: 700;
+}
+
+.start-now p a {
+	text-decoration: underline;
+	color: #0563c1;
+}
+
+.top-address p {
+	margin-top: 15px;
+	font-size: 17px;
+}
+
+/* Your First Week Area CSS */
+.your-first-week {
+	padding-top: 40px;
+}
+.first-week-cnt h2 {
+	text-decoration: underline;
+	font-size: 38px;
+	text-align: center;
+	font-weight: 700;
+}
+.first-week-cnt .first-week-free-trial {
+	text-decoration: underline;
+	font-size: 38px;
+	text-align: center;
+	font-weight: 700;
+	color: #ee0000;
+	display: block;
+}
+
+.first-week-cnt h3 {
+	margin-top: 15px;
+	font-size: 45px;
+	text-align: center;
+	font-weight: 700;
+}
+
+.first-week-cnt .send-email {
+	color: #055fba;
+	display: block;
+	text-align: center;
+	font-size: 28px;
+	font-weight: 700;
+	text-decoration: underline;
+}
+
+.first-week-cnt h4 {
+	text-align: center;
+	font-weight: 700;
+}
+
+.first-week-cnt button {
+	border: none;
+	margin-top: 15px;
+	background: transparent;
+}
+
+.first-week-person img:last-child {
+	margin-left: 30px;
+	width: 250px;
+	display: block;
 }

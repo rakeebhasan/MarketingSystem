@@ -8,12 +8,18 @@ Extra Large Screen - Others
 Large Screen - Leptop
 ==========================*/
 @media screen and (min-width: 992px) and (max-width: 1199px) {
+	.largest-banner-desc h2 {
+		font-size: 55px;
+	}
 }
 
 /*=========================
 Medium Screen - Tablate
 =========================*/
 @media screen and (min-width: 768px) and (max-width: 991px) {
+	.free-marketing-wrpper h1 {
+		font-size: 45px;
+	}
 }
 
 /*===============================
@@ -25,5 +31,39 @@ Xtra Small Screen - Small Mobile
 	}
 	.logo-card a {
 		font-size: 30px;
+	}
+	.largest-banner-desc h2 {
+		font-size: 35px;
+	}
+	.largest-banner-desc h3 {
+		font-size: 50px;
+	}
+	.largest-wrpper {
+		padding: 40px 0;
+	}
+
+	.free-marketing-wrpper h1 {
+		font-size: 29px;
+	}
+	.free-marketing-wrpper h3 p {
+		padding: 10px 6px;
+		font-size: 18px;
+	}
+	.start-now p {
+		font-size: 22px;
+		padding-right: 20px;
+	}
+
+	.first-week-cnt h2,
+	.first-week-cnt .first-week-free-trial {
+		font-size: 30px;
+	}
+	.first-week-cnt h3 {
+		font-size: 37px;
+	}
+	.first-week-person img:last-child {
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 25px;
 	}
 }
