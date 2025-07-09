@@ -28,7 +28,7 @@ Large Screen - Leptop
 	.miracle-marketing-wrpper,
 	.summary-wrpper,
 	.drivers-seat-wrpper,
-	.five-yr-system-wrpper {
+	.five-yr-system-wrpper .free-advertising-wrpper {
 		max-width: 80%;
 	}
 
@@ -36,6 +36,12 @@ Large Screen - Leptop
 	.promote-bussiness img,
 	.amazing-img img {
 		width: 100%;
+	}
+	.your-flyers h3 {
+		font-size: 26px;
+	}
+	.marketing-tools-desc p {
+		font-size: 20px;
 	}
 }
 
@@ -51,7 +57,10 @@ Medium Screen - Tablate
 	.miracle-marketing-wrpper,
 	.summary-wrpper,
 	.drivers-seat-wrpper,
-	.five-yr-system-wrpper {
+	.five-yr-system-wrpper,
+	.free-advertising-wrpper,
+	.bargain-price-wrpper,
+	.annual-raffle-wrpper {
 		max-width: 90%;
 	}
 	.miracle-marketing-cnt span,
@@ -71,6 +80,16 @@ Medium Screen - Tablate
 	.marketing-tools-desc p:first-child,
 	.marketing-tools-desc p:nth-child(2) {
 		margin-bottom: 10px;
+	}
+	.annual-raffle-wrpper h2 {
+		font-size: 27px;
+		margin-top: 30px;
+	}
+	.need-space-two {
+		margin-top: 25px;
+	}
+	.bargain-price-wrpper h2 {
+		font-size: 32px;
 	}
 }
 
@@ -146,7 +165,10 @@ Xtra Small Screen - Small Mobile
 	.miracle-marketing-wrpper,
 	.summary-wrpper,
 	.drivers-seat-wrpper,
-	.five-yr-system-wrpper {
+	.five-yr-system-wrpper,
+	.free-advertising-wrpper,
+	.bargain-price-wrpper,
+	.annual-raffle-wrpper {
 		max-width: 100%;
 		margin-top: 0;
 	}
@@ -195,5 +217,15 @@ Xtra Small Screen - Small Mobile
 	.your-flyers h3 {
 		margin-bottom: 5px;
 		margin-top: 10px;
+		font-size: 28px;
+	}
+	.bargain-price-wrpper h2 {
+		font-size: 31px;
+		margin-bottom: 15px;
+	}
+	.annual-raffle-wrpper h2 {
+		font-size: 25px;
+		margin-top: 20px;
+		margin-bottom: 15px;
 	}
 }

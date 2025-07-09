@@ -478,7 +478,10 @@ HEADER CSS HERE
 .miracle-marketing-wrpper,
 .summary-wrpper,
 .drivers-seat-wrpper,
-.five-yr-system-wrpper {
+.five-yr-system-wrpper,
+.free-advertising-wrpper,
+.bargain-price-wrpper,
+.annual-raffle-wrpper {
 	max-width: 60%;
 	font-size: 18px;
 	margin: auto;
@@ -643,4 +646,61 @@ HEADER CSS HERE
 
 .your-flyers p {
 	margin-bottom: 0 !important;
+}
+
+/* Free Advertising Area CSS */
+.public-speaker {
+	font-size: 25px;
+}
+
+.customer-service {
+	font-size: 30px;
+	text-align: center;
+	font-weight: 700;
+	margin: 20px 0;
+}
+
+.need-mt {
+	margin-top: 20px;
+}
+
+/* bargain price CSS */
+.bargain-price {
+	padding-top: 50px;
+}
+
+.bargain-price-wrpper h2 {
+	font-size: 35px;
+	text-align: center;
+	font-weight: 700;
+}
+
+.bargain-price-desc ul {
+	display: flex;
+	flex-direction: column;
+	row-gap: 10px;
+}
+
+.bargain-price-desc ul li {
+	font-size: 22px;
+}
+
+.bargain-price-wrpper p {
+	font-size: 22px;
+}
+
+/* Annual Raffle Css */
+.annual-raffle-wrpper h2 {
+	font-size: 32px;
+	font-weight: 700;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.annual-raffle-wrpper > p {
+	margin-bottom: 15px;
+}
+
+.free-trial-period-desc h2 {
+	margin-top: 0;
 }
