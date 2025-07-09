@@ -393,3 +393,73 @@ HEADER CSS HERE
 	width: 250px;
 	display: block;
 }
+
+/* Here Few Things Area Start */
+.few-things-area {
+	padding: 80px 0;
+}
+.few-things-wrpper > h2 {
+	font-weight: 700;
+	text-align: center;
+}
+
+.things-list {
+	max-width: 60%;
+	margin: auto;
+	padding-top: 20px;
+	display: flex;
+	flex-direction: column;
+	row-gap: 10px;
+}
+
+.things-list li {
+	font-size: 20px;
+}
+
+.things-list li span,
+.things-list li a {
+	color: #ee0000;
+}
+
+.everything-free {
+	max-width: 60%;
+	margin: 40px auto 0;
+	border: 5px solid #ee0000;
+	padding: 10px 20px;
+	text-align: center;
+}
+
+.everything-free > h2 {
+	font-weight: 700;
+	text-align: center;
+	color: #ee0000;
+}
+
+.everything-free > h3,
+.everything-free > h4 {
+	font-weight: 700;
+	margin: 10px 0;
+}
+
+.span-color {
+	color: #ee0000;
+}
+
+.everything-free > h5 {
+	font-weight: 700;
+	font-size: 32px;
+}
+
+.everything-free > h6 {
+	color: #48599f;
+	font-size: 55px;
+	font-weight: 700;
+}
+
+.everything-free > p {
+	color: #48599f;
+	font-size: 40px;
+	font-weight: 700;
+}
+
+/* Miracle Marketing System Area CSS */

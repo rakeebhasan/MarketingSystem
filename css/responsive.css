@@ -11,6 +11,9 @@ Large Screen - Leptop
 	.largest-banner-desc h2 {
 		font-size: 55px;
 	}
+	.things-list, .everything-free {
+		max-width: 80%;
+	}
 }
 
 /*=========================
@@ -20,12 +23,15 @@ Medium Screen - Tablate
 	.free-marketing-wrpper h1 {
 		font-size: 45px;
 	}
+	.things-list, .everything-free {
+		max-width: 90%;
+	}
 }
 
 /*===============================
 Xtra Small Screen - Small Mobile
 =================================*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
 	.header-area {
 		padding: 10px 0;
 	}
@@ -39,7 +45,7 @@ Xtra Small Screen - Small Mobile
 		font-size: 50px;
 	}
 	.largest-wrpper {
-		padding: 40px 0;
+		padding: 20px 0;
 	}
 
 	.free-marketing-wrpper h1 {
@@ -65,5 +71,29 @@ Xtra Small Screen - Small Mobile
 		margin-left: auto;
 		margin-right: auto;
 		margin-bottom: 25px;
+	}
+	.largest-banner-desc {
+		margin-top: 25px;
+	}
+
+	.things-list {
+		max-width: 100%;
+	}
+	.few-things-area {
+		padding: 50px 0;
+	}
+
+	.everything-free {
+		max-width: 100%;
+		margin: 25px auto 0;
+	}
+	.everything-free > h5 {
+		font-size: 26px;
+	}
+	.everything-free > h6 {
+		font-size: 40px;
+	}
+	.everything-free > p {
+		font-size: 32px;
 	}
 }
