@@ -477,7 +477,8 @@ HEADER CSS HERE
 
 .miracle-marketing-wrpper,
 .summary-wrpper,
-.drivers-seat-wrpper {
+.drivers-seat-wrpper,
+.five-yr-system-wrpper {
 	max-width: 60%;
 	font-size: 18px;
 	margin: auto;
@@ -588,10 +589,6 @@ HEADER CSS HERE
 	font-size: 20px !important;
 }
 
-.become-dealer-img img {
-	width: 100%;
-}
-
 /* driver’s seat css */
 .drivers-area {
 	padding-top: 30px;
@@ -600,4 +597,50 @@ HEADER CSS HERE
 	font-size: 28px;
 	font-weight: 700;
 	text-align: center;
+}
+
+.marketing-tools-desc p {
+	font-size: 25px;
+}
+
+.marketing-tools-desc p:first-child,
+.marketing-tools-desc p:nth-child(2) {
+	margin-bottom: 25px;
+}
+
+.font-25 {
+	font-size: 25px;
+}
+
+.five-yr-system-wrpper {
+	margin-top: 20px;
+}
+
+.five-yr-system-wrpper h2 {
+	font-weight: 700;
+	text-align: center;
+}
+
+.last-item {
+	margin-bottom: 20px;
+}
+
+.five-yr-system-wrpper p {
+	font-size: 25px;
+	margin-bottom: 20px;
+}
+
+.your-contest h3,
+.your-flyers h3 {
+	font-size: 33px;
+	margin-bottom: 15px;
+	font-weight: 700;
+	text-align: center;
+}
+.need-space-two {
+	margin-top: 50px;
+}
+
+.your-flyers p {
+	margin-bottom: 0 !important;
 }

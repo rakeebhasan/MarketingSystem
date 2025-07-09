@@ -1,7 +1,19 @@
 /*=============================
 Extra Large Screen - Others
 ===============================*/
+@media screen and (min-width: 1400px) {
+	.become-dealer-img img,
+	.promote-bussiness img,
+	.amazing-img img {
+		width: 100%;
+	}
+}
 @media screen and (min-width: 1200px) and (max-width: 1399px) {
+	.become-dealer-img img,
+	.promote-bussiness img,
+	.amazing-img img {
+		width: 100%;
+	}
 }
 
 /*========================
@@ -13,8 +25,17 @@ Large Screen - Leptop
 	}
 	.things-list,
 	.everything-free,
-	.miracle-marketing-wrpper {
+	.miracle-marketing-wrpper,
+	.summary-wrpper,
+	.drivers-seat-wrpper,
+	.five-yr-system-wrpper {
 		max-width: 80%;
+	}
+
+	.become-dealer-img img,
+	.promote-bussiness img,
+	.amazing-img img {
+		width: 100%;
 	}
 }
 
@@ -27,7 +48,10 @@ Medium Screen - Tablate
 	}
 	.things-list,
 	.everything-free,
-	.miracle-marketing-wrpper {
+	.miracle-marketing-wrpper,
+	.summary-wrpper,
+	.drivers-seat-wrpper,
+	.five-yr-system-wrpper {
 		max-width: 90%;
 	}
 	.miracle-marketing-cnt span,
@@ -36,6 +60,17 @@ Medium Screen - Tablate
 	}
 	.outside-cnt h2 {
 		font-size: 28px;
+	}
+	.promot-bussiness-dsc h3 br {
+		display: none;
+	}
+	.promot-bussiness-dsc h3 {
+		margin-top: 20px;
+		margin-bottom: 10px;
+	}
+	.marketing-tools-desc p:first-child,
+	.marketing-tools-desc p:nth-child(2) {
+		margin-bottom: 10px;
 	}
 }
 
@@ -108,7 +143,10 @@ Xtra Small Screen - Small Mobile
 		font-size: 32px;
 	}
 
-	.miracle-marketing-wrpper {
+	.miracle-marketing-wrpper,
+	.summary-wrpper,
+	.drivers-seat-wrpper,
+	.five-yr-system-wrpper {
 		max-width: 100%;
 		margin-top: 0;
 	}
@@ -126,5 +164,36 @@ Xtra Small Screen - Small Mobile
 	.w-full-p,
 	.outside-cnt-three p {
 		font-size: 20px;
+	}
+
+	.summary-wrpper h2 {
+		font-size: 25px;
+		margin-bottom: 10px;
+	}
+	.summary-banner-img p,
+	.summary-wrpper p,
+	.marketing-tools-desc p:first-child,
+	.marketing-tools-desc p:nth-child(2),
+	.marketing-tools-desc p,
+	.font-25,
+	.five-yr-system-wrpper p {
+		font-size: 20px;
+	}
+	.drivers-seat-wrpper > h2 {
+		font-size: 23px;
+		margin-bottom: 15px;
+	}
+	.marketing-tools-desc p:first-child,
+	.marketing-tools-desc p:nth-child(2) {
+		margin-bottom: 10px;
+	}
+
+	.need-space-two {
+		margin-top: 0px;
+	}
+	.your-contest h3,
+	.your-flyers h3 {
+		margin-bottom: 5px;
+		margin-top: 10px;
 	}
 }
