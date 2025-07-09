@@ -475,7 +475,9 @@ HEADER CSS HERE
 	font-weight: 700;
 }
 
-.miracle-marketing-wrpper {
+.miracle-marketing-wrpper,
+.summary-wrpper,
+.drivers-seat-wrpper {
 	max-width: 60%;
 	font-size: 18px;
 	margin: auto;
@@ -526,4 +528,76 @@ HEADER CSS HERE
 
 .need-space {
 	margin-top: 15px;
+}
+
+/* Summary Area CSS */
+.summary-area {
+	margin-top: 40px;
+}
+
+.summary-wrpper h2 {
+	font-weight: 700;
+	font-size: 30px;
+}
+
+.summary-wrpper p {
+	font-size: 25px;
+}
+
+.summary-banner-img img {
+	width: 80%;
+}
+
+.summary-banner-img h2 {
+	font-weight: 700;
+	font-size: 30px;
+	margin-top: 5px;
+}
+
+.summary-banner-img p {
+	font-size: 25px;
+	margin-top: 15px;
+}
+
+.promot-bussiness-dsc p {
+	font-size: 20px;
+}
+
+.promot-bussiness-dsc p:first-child {
+	margin-bottom: 15px;
+}
+
+.promot-bussiness-dsc h3,
+.become-dealer-desc h3 {
+	font-weight: 700;
+}
+
+.promotional-websites h2 {
+	font-weight: 700;
+	font-size: 28px;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.promotional-websites p:last-child {
+	margin-top: 20px;
+}
+
+.become-dealer-desc p,
+.become-dealer-desc-outside {
+	font-size: 20px !important;
+}
+
+.become-dealer-img img {
+	width: 100%;
+}
+
+/* driver’s seat css */
+.drivers-area {
+	padding-top: 30px;
+}
+.drivers-seat-wrpper > h2 {
+	font-size: 28px;
+	font-weight: 700;
+	text-align: center;
 }
