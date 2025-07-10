@@ -22,7 +22,9 @@ Extra Large Screen - Others
 	.bargain-price-wrpper,
 	.annual-raffle-wrpper,
 	.customar-service-wrpper,
-	.marketing-action-wrpper {
+	.marketing-action-wrpper,
+	.final-word-wrpper,
+	.sfyourslfe-wrpper {
 		max-width: 80%;
 		font-size: 18px;
 		margin: auto;
@@ -47,7 +49,9 @@ Large Screen - Leptop
 	.bargain-price-wrpper,
 	.annual-raffle-wrpper,
 	.customar-service-wrpper,
-	.marketing-action-wrpper {
+	.marketing-action-wrpper,
+	.final-word-wrpper,
+	.sfyourslfe-wrpper {
 		max-width: 80%;
 	}
 
@@ -81,7 +85,9 @@ Medium Screen - Tablate
 	.bargain-price-wrpper,
 	.annual-raffle-wrpper,
 	.customar-service-wrpper,
-	.marketing-action-wrpper {
+	.marketing-action-wrpper,
+	.final-word-wrpper,
+	.sfyourslfe-wrpper {
 		max-width: 90%;
 	}
 	.miracle-marketing-cnt span,
@@ -114,6 +120,22 @@ Medium Screen - Tablate
 	}
 	.marketing-plane-image {
 		width: 33% !important;
+	}
+	.final-word-area {
+		padding-top: 30px;
+	}
+	.final-word-wrpper h2 {
+		font-size: 50px;
+	}
+	.final-word-wrpper > span {
+		font-size: 25px;
+	}
+	.final-word-wrpper h3 {
+		font-size: 32px;
+	}
+	.customar-service-wrpper,
+	.marketing-action-area {
+		padding-top: 25px;
 	}
 }
 
@@ -194,7 +216,9 @@ Xtra Small Screen - Small Mobile
 	.bargain-price-wrpper,
 	.annual-raffle-wrpper,
 	.customar-service-wrpper,
-	.marketing-action-wrpper {
+	.marketing-action-wrpper,
+	.final-word-wrpper,
+	.sfyourslfe-wrpper {
 		max-width: 100%;
 		margin-top: 0;
 	}
@@ -243,7 +267,7 @@ Xtra Small Screen - Small Mobile
 	.your-flyers h3 {
 		margin-bottom: 5px;
 		margin-top: 10px;
-		font-size: 28px;
+		font-size: 27px;
 	}
 	.bargain-price-wrpper h2 {
 		font-size: 31px;
@@ -252,6 +276,7 @@ Xtra Small Screen - Small Mobile
 	.annual-raffle-wrpper h2 {
 		font-size: 25px;
 		margin-bottom: 15px;
+		margin-top: 20px;
 	}
 	.marketing-action-wrpper h3,
 	.your-action-plane h4 {
@@ -265,5 +290,62 @@ Xtra Small Screen - Small Mobile
 	}
 	.marketing-action-wrpper p {
 		font-size: 20px;
+	}
+	.final-word-wrpper h2 {
+		font-size: 40px;
+	}
+	.final-word-area {
+		padding-top: 15px;
+	}
+	.final-word-img img {
+		width: 100%;
+		margin: 10px auto;
+	}
+	.final-word-wrpper p br,
+	.final-word-wrpper > span br {
+		display: none;
+	}
+	.final-word-wrpper h3 {
+		font-size: 26px;
+		margin-top: 10px;
+	}
+	.final-word-wrpper h4 {
+		font-size: 25px;
+	}
+	.final-word-wrpper h5 {
+		font-size: 22px;
+	}
+	.final-word-wrpper h6 {
+		font-size: 23px;
+	}
+	.final-word-wrpper > span {
+		font-size: 20px;
+	}
+	.sfyourslfe-wrpper h4 {
+		font-size: 30px;
+	}
+	.sfyourslfe-wrpper h2 {
+		font-size: 32px;
+	}
+	.sfyourslfe-wrpper h5 {
+		font-size: 27px;
+	}
+	.sfyourslfe-wrpper h1 {
+		font-size: 45px;
+	}
+	.sfyourslfe-wrpper p {
+		font-size: 21px;
+	}
+	.see-for-yourslfe-area {
+		padding-top: 25px;
+	}
+	.customar-service-wrpper {
+		padding-top: 10px;
+	}
+	.customar-service-wrpper h2 {
+		font-size: 28px;
+	}
+	.annual-raffle-wrpper h2 br {
+		display: none;
 	}
 }

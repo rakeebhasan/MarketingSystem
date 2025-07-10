@@ -483,7 +483,9 @@ HEADER CSS HERE
 .bargain-price-wrpper,
 .annual-raffle-wrpper,
 .customar-service-wrpper,
-.marketing-action-wrpper {
+.marketing-action-wrpper,
+.final-word-wrpper,
+.sfyourslfe-wrpper {
 	max-width: 60%;
 	font-size: 18px;
 	margin: auto;
@@ -762,4 +764,127 @@ HEADER CSS HERE
 	width: 80%;
 	display: block;
 	margin: 20px auto 0;
+}
+
+/* Final Word CSS */
+.final-word-area {
+	padding-top: 50px;
+}
+.final-word-wrpper h2 {
+	font-size: 60px;
+	font-weight: 700;
+	text-align: center;
+}
+
+.final-word-wrpper p {
+	margin-top: 10px;
+}
+
+.final-word-img img {
+	width: 80%;
+	display: block;
+	margin: 30px auto;
+}
+
+.final-word-wrpper h3 {
+	font-size: 35px;
+	font-weight: 700;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.final-word-wrpper h4 {
+	font-size: 35px;
+	font-weight: 700;
+	text-align: center;
+}
+
+.final-word-wrpper h5 {
+	font-size: 28px;
+	font-weight: 600;
+	text-align: center;
+	color: #006fbe;
+	margin: 10px auto;
+}
+
+.final-word-wrpper h6 {
+	font-size: 28px;
+	font-weight: 600;
+	text-align: center;
+	color: #c00000;
+}
+
+.final-word-wrpper > span {
+	font-size: 30px;
+	display: block;
+	text-align: center;
+	font-weight: 700;
+	margin-top: 15px;
+}
+
+/* SEE FOR YOURSLF CSS */
+.see-for-yourslfe-area {
+	padding: 50px 0;
+}
+
+.sfyourslfe-wrpper h3 {
+	font-size: 35px;
+	font-weight: 600;
+	text-align: center;
+}
+
+.sfyourslfe-wrpper h2 {
+	font-size: 35px;
+	font-weight: 600;
+	text-align: center;
+}
+
+.sfyourslfe-wrpper h4 {
+	font-size: 35px;
+	font-weight: 600;
+	text-align: center;
+	color: #000000;
+}
+
+.sfyourslfe-wrpper h1 {
+	font-size: 55px;
+	font-weight: 600;
+	text-align: center;
+}
+
+.sfyourslfe-wrpper h5 {
+	font-size: 35px;
+	font-weight: 600;
+	text-align: center;
+	color: #c00000;
+}
+
+.sfyourslfe-wrpper ul {
+	padding-top: 15px;
+	display: flex;
+	flex-direction: column;
+	row-gap: 10px;
+	margin-bottom: 20px;
+}
+
+.sfyourslfe-wrpper ul li {
+	font-size: 22px;
+	font-weight: 700;
+}
+
+.sfyourslfe-wrpper h6 {
+	font-size: 28px;
+	font-weight: 700;
+	text-align: center;
+}
+
+.sfyourslfe-wrpper b {
+	font-size: 23px;
+	margin-top: 15px;
+	display: block;
+}
+
+.sfyourslfe-wrpper p {
+	font-size: 25px;
+	margin-top: 15px;
 }
