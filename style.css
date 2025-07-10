@@ -824,7 +824,7 @@ HEADER CSS HERE
 
 /* SEE FOR YOURSLF CSS */
 .see-for-yourslfe-area {
-	padding: 50px 0;
+	padding-top: 50px;
 }
 
 .sfyourslfe-wrpper h3 {
@@ -887,4 +887,106 @@ HEADER CSS HERE
 .sfyourslfe-wrpper p {
 	font-size: 25px;
 	margin-top: 15px;
+}
+
+/*======== Rafi Dealership Setion Here ========*/
+
+.new-delership-wrapper {
+	max-width: 60%;
+	font-size: 18px;
+	margin: auto;
+}
+
+.new-delership-wrapper {
+	padding: 40px 0;
+	text-align: center;
+}
+
+.new-delership-wrapper-inner h3 {
+	font-size: 30px;
+	font-weight: 700;
+}
+
+.new-delership-wrapper-inner h3 span {
+	color: #c00000;
+}
+
+.new-delership-wrapper-inner img {
+	padding-top: 30px;
+}
+
+.new-delership-wrapper-inner h2 {
+	padding-top: 30px;
+	font-size: 38px;
+	font-weight: 600;
+}
+
+.new-delership-wrapper-inner h2 span {
+	color: #c00000;
+}
+
+.new-delership-wrapper-box {
+	border: 5px solid #2f5496;
+	margin-top: 5px;
+	padding: 5px 0;
+	position: relative;
+}
+
+.new-delership-wrapper-box h3 {
+	font-size: 30px;
+	font-weight: 700;
+	color: #000;
+}
+
+.new-delership-wrapper-box a {
+	color: #0563c1;
+	padding-top: 20px;
+	font-size: 38px;
+	font-weight: 600;
+	text-decoration: underline;
+}
+
+.new-delership-wrapper-box h2 {
+	font-size: 36px;
+	font-weight: 700;
+	color: #000;
+}
+
+.new-delership-wrapper-box ul li {
+	line-height: 20px;
+	font-size: 18px;
+	color: #000;
+}
+
+.new-delership-wrapper-box-button {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 6%;
+}
+
+.new-delership-wrapper-box-button a {
+	padding: 0 !important;
+	display: block;
+}
+
+.new-delership-wrapper-box-button a img {
+	max-width: 120px;
+}
+
+.new-delership-wrapper-bottom h2 {
+	padding-top: 15px;
+	font-size: 26px;
+	color: #000;
+	font-weight: 600;
+}
+
+.new-delership-wrapper-bottom h2 a {
+	color: #000;
+	text-decoration: underline;
+}
+
+.new-delership-wrapper-bottom p {
+	color: #000;
+	font-size: 22px;
 }

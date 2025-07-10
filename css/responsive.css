@@ -7,6 +7,11 @@ Extra Large Screen - Others
 	.amazing-img img {
 		width: 100%;
 	}
+
+	/*======== Dealership Setion Here ========*/
+	.new-delership-wrapper {
+		max-width: 80%;
+	}
 }
 @media screen and (min-width: 1200px) and (max-width: 1399px) {
 	.become-dealer-img img,
@@ -24,7 +29,8 @@ Extra Large Screen - Others
 	.customar-service-wrpper,
 	.marketing-action-wrpper,
 	.final-word-wrpper,
-	.sfyourslfe-wrpper {
+	.sfyourslfe-wrpper,
+	.new-delership-wrapper {
 		max-width: 80%;
 		font-size: 18px;
 		margin: auto;
@@ -65,6 +71,10 @@ Large Screen - Leptop
 	}
 	.marketing-tools-desc p {
 		font-size: 20px;
+	}
+	/*======== Dealership Setion Here ========*/
+	.new-delership-wrapper {
+		max-width: 80%;
 	}
 }
 
@@ -136,6 +146,37 @@ Medium Screen - Tablate
 	.customar-service-wrpper,
 	.marketing-action-area {
 		padding-top: 25px;
+	}
+
+	/*======== Dealership Setion Here ========*/
+	.new-delership-wrapper {
+		max-width: 90%;
+	}
+	.new-delership-wrapper-inner h3 {
+		font-size: 28px;
+	}
+	.new-delership-wrapper-inner h2 {
+		font-size: 32px;
+		padding-top: 20px;
+	}
+	.new-delership-wrapper-box a {
+		padding-top: 15px;
+		font-size: 32px;
+	}
+	.new-delership-wrapper-box h2 {
+		font-size: 30px;
+	}
+	.new-delership-wrapper-box-button a img {
+		max-width: 110px;
+	}
+	.new-delership-wrapper-box-button {
+		right: 4%;
+	}
+	.new-delership-wrapper-bottom h2 {
+		font-size: 24px;
+	}
+	.new-delership-wrapper-bottom p {
+		font-size: 18px;
 	}
 }
 
@@ -347,5 +388,47 @@ Xtra Small Screen - Small Mobile
 	}
 	.annual-raffle-wrpper h2 br {
 		display: none;
+	}
+
+	/*======== Rafi Dealership Setion Here ========*/
+	.new-delership-wrapper {
+		max-width: 100%;
+	}
+	.new-delership-wrapper-inner h3 {
+		font-size: 28px;
+	}
+	.new-delership-wrapper-inner h2 {
+		font-size: 26px;
+		padding-top: 20px;
+	}
+	.new-delership-wrapper-box a {
+		padding-top: 8px;
+		font-size: 26px;
+	}
+	.new-delership-wrapper-box h2 {
+		font-size: 26px;
+	}
+	.new-delership-wrapper-box-button a img {
+		max-width: 110px;
+	}
+	.new-delership-wrapper-box-button {
+		position: initial;
+		transform: initial;
+	}
+	.new-delership-wrapper-bottom h2 {
+		font-size: 22px;
+	}
+	.new-delership-wrapper-bottom p {
+		font-size: 16px;
+	}
+	.new-delership-wrapper-box-button a {
+		display: inline-block;
+		padding-top: 10px !important;
+	}
+	.new-delership-wrapper-box h3 {
+		font-size: 26px;
+	}
+	.new-delership-wrapper-inner img {
+		width: 100%;
 	}
 }
