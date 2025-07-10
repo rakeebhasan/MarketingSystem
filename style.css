@@ -179,6 +179,7 @@ HEADER CSS HERE
 	font-size: 18px;
 	font-weight: 500;
 	position: relative;
+	text-transform: capitalize;
 }
 
 .SMN_effect-14 a {
