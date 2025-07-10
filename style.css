@@ -481,7 +481,9 @@ HEADER CSS HERE
 .five-yr-system-wrpper,
 .free-advertising-wrpper,
 .bargain-price-wrpper,
-.annual-raffle-wrpper {
+.annual-raffle-wrpper,
+.customar-service-wrpper,
+.marketing-action-wrpper {
 	max-width: 60%;
 	font-size: 18px;
 	margin: auto;
@@ -703,4 +705,61 @@ HEADER CSS HERE
 
 .free-trial-period-desc h2 {
 	margin-top: 0;
+}
+
+/* Customar Service CSS */
+.customar-service-wrpper {
+	padding-top: 50px;
+}
+
+.customar-service-wrpper h2,
+.marketing-action-wrpper h2 {
+	font-size: 32px;
+	font-weight: 700;
+	text-align: center;
+}
+
+.customar-service-wrpper .w-full-p {
+	margin-top: 10px;
+}
+
+.customar-service-wrpper img {
+	width: 80%;
+	display: block;
+	margin: 10px auto;
+}
+
+.customar-service-wrpper .w-full-p a {
+	text-decoration: underline;
+}
+
+/* Marketing Action Plane CSS */
+.marketing-action-area {
+	padding-top: 50px;
+}
+
+.marketing-action-wrpper p {
+	font-size: 22px;
+	margin-top: 10px;
+}
+
+.your-action-plane {
+	padding-top: 30px;
+}
+
+.marketing-action-wrpper h3,
+.your-action-plane h4 {
+	font-size: 30px;
+	text-align: center;
+	font-weight: 700;
+}
+
+.need-space-three {
+	margin-top: 20px;
+}
+
+.your-action-plane img {
+	width: 80%;
+	display: block;
+	margin: 20px auto 0;
 }

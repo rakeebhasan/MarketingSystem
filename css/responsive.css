@@ -14,6 +14,19 @@ Extra Large Screen - Others
 	.amazing-img img {
 		width: 100%;
 	}
+	.miracle-marketing-wrpper,
+	.summary-wrpper,
+	.drivers-seat-wrpper,
+	.five-yr-system-wrpper,
+	.free-advertising-wrpper,
+	.bargain-price-wrpper,
+	.annual-raffle-wrpper,
+	.customar-service-wrpper,
+	.marketing-action-wrpper {
+		max-width: 80%;
+		font-size: 18px;
+		margin: auto;
+	}
 }
 
 /*========================
@@ -28,7 +41,13 @@ Large Screen - Leptop
 	.miracle-marketing-wrpper,
 	.summary-wrpper,
 	.drivers-seat-wrpper,
-	.five-yr-system-wrpper .free-advertising-wrpper {
+	.five-yr-system-wrpper .free-advertising-wrpper,
+	.five-yr-system-wrpper,
+	.free-advertising-wrpper,
+	.bargain-price-wrpper,
+	.annual-raffle-wrpper,
+	.customar-service-wrpper,
+	.marketing-action-wrpper {
 		max-width: 80%;
 	}
 
@@ -60,7 +79,9 @@ Medium Screen - Tablate
 	.five-yr-system-wrpper,
 	.free-advertising-wrpper,
 	.bargain-price-wrpper,
-	.annual-raffle-wrpper {
+	.annual-raffle-wrpper,
+	.customar-service-wrpper,
+	.marketing-action-wrpper {
 		max-width: 90%;
 	}
 	.miracle-marketing-cnt span,
@@ -90,6 +111,9 @@ Medium Screen - Tablate
 	}
 	.bargain-price-wrpper h2 {
 		font-size: 32px;
+	}
+	.marketing-plane-image {
+		width: 33% !important;
 	}
 }
 
@@ -168,7 +192,9 @@ Xtra Small Screen - Small Mobile
 	.five-yr-system-wrpper,
 	.free-advertising-wrpper,
 	.bargain-price-wrpper,
-	.annual-raffle-wrpper {
+	.annual-raffle-wrpper,
+	.customar-service-wrpper,
+	.marketing-action-wrpper {
 		max-width: 100%;
 		margin-top: 0;
 	}
@@ -225,7 +251,19 @@ Xtra Small Screen - Small Mobile
 	}
 	.annual-raffle-wrpper h2 {
 		font-size: 25px;
-		margin-top: 20px;
 		margin-bottom: 15px;
+	}
+	.marketing-action-wrpper h3,
+	.your-action-plane h4 {
+		font-size: 27px;
+	}
+	.marketing-action-area {
+		padding-top: 25px;
+	}
+	.need-space-three {
+		margin-top: 0px;
+	}
+	.marketing-action-wrpper p {
+		font-size: 20px;
 	}
 }
